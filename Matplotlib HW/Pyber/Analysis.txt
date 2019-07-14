@@ -1,0 +1,5 @@
+Based off the first graph (scatter bubble plot), it is clear that the number of riders and drivers are more in urban city types as compared to rural or suburban city types. However, average fare is more for rural and suburban city types. This is possibly because of the limited drivers in those areas, and/or the great distances for rides.
+
+The pie charts indicate that urban city types have a high percentage of total fare, total rides and total drivers; suburban city types have a moderate percentage of total fare, total rides and total drivers, in comparison; rural city types have the lowest percentage of total fare, total rides and total drivers.
+
+Based on both the scatter bubble plot and the pie charts, it can be concluded that there is great opportunity for Pyber Ride to expand in the rural and suburban areas. This means hiring more drivers in those areas, which will lead to more rides along the way, and thus increasing percentage of total fare.
