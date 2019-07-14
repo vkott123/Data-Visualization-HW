@@ -1,0 +1,5 @@
+City Latitude vs Max Temperature shows that the temperatures are higher when the city is closer to the equator (latitude range of -20 to 20)
+
+City Latitude vs Humidity shows that Windspeeds are somewhat indifferent to latitudes. In general, humidity is within 0% - 100% and does not exceed 100 %. However, there is one outlier. It is important to note the outlier is ~ 300% and occurs at a latitude close to the equator.
+
+City Latitude vs Cloudiness shows no relation between the two variables. 
