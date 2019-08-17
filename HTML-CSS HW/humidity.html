@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+  <meta charset="UTF-8">
+  <title>Bootstrap Components</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+  
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <a class="navbar-brand" id="NavbarTitle" href="index.html">Latitude</a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="navbar-default" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="temperature.html">Temperature</a></li>
+                <li><a href="humidity.html">Humidity</a></li>
+                <li><a href="cloudiness.html">Cloudiness</a></li>
+                <li><a href="windSpeed.html">Wind Speed</a></li>
+            </ul>
+          <li><a href="comparison.html">Comparison</a></li>
+          <li><a href="data.html">Data</a></li>
+          </li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+  </nav>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xs-12 col-md-8">
+        <div class="thumbnail">
+          <h1></h1>
+          <div class="greenheader caption">
+            <h3>Latitude vs. Humidity</h3>
+          </div>
+          <img src="humidity.png" id="SummaryImage">
+          <p>In this plot, we look at the relationship between latitude and average humidity. 
+              Humid climates can be found at practically all latitudes, where the data shows a decrease in humidity
+              as it moves further from the equator.
+              At the equator, the highest concentration of high humidity areas can be observed.
+          </p>
+          <hr>
+        </div>
+      </div>
+      <div class="col-xs-12 col-md-4">
+
+    <!-- Thumbnails container on larger screens (at least 768px wide)-->
+    <div class="container-fluid thumbnail bigscreen">
+        <div class="caption" id="VisualizationsHeader">
+            <h3>Visualizations</h3>
+            <hr>
+          </div>
+          <div class="row">
+              <div class="col-xs-6 col-md-6"> 
+                  <a href="temperature.html"><img class="thumbnail_img" src="temperature.png" alt="..."></a>
+                </div>
+              <div class="col-xs-6 col-md-6"> 
+                  <a href="humidity.html"><img class="thumbnail_img" id="focus" src="humidity.png" alt="..."></a>
+              </div>  
+          </div>
+          <div class="row">
+              <div class="col-xs-6 col-md-6"> 
+                  <a href="cloudiness.html"><img class="thumbnail_img" src="cloudiness.png" alt="..."></a>
+              </div>
+              <div class="col-xs-6 col-md-6"> 
+                  <a href="windSpeed.html"><img class="thumbnail_img" src="windSpeed.png" alt="..."></a>
+              </div> 
+          </div>
+      </div>
+
+      <!-- Thumbnails container on smaller screens (less than 768px wide)-->
+      <div class="container-fluid thumbnail smallscreen">
+          <div class="caption" id="VisualizationsHeader">
+              <h3>Visualizations</h3>
+              <hr>
+            </div>
+            <div class="row">
+                <div class="col-xs-3 col-md-3"> 
+                    <a href="temperature.html"><img class="thumbnail_img" src="temperature.png"></a>
+                  </div>
+                <div class="col-xs-3 col-md-3"> 
+                    <a href="humidity.html"><img class="thumbnail_img" id="focus" src="humidity.png"></a>
+                </div>  
+                <div class="col-xs-3 col-md-3"> 
+                    <a href="cloudiness.html"><img class="thumbnail_img" src="cloudiness.png"></a>
+                </div> 
+                <div class="col-xs-3 col-md-3"> 
+                    <a href="windSpeed.html"><img class="thumbnail_img" src="windSpeed.png"></a>
+                </div> 
+            </div>
+        </div>
+      </div>
+    </div>
+</div>
