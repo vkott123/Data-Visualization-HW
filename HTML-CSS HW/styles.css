@@ -36,13 +36,25 @@ body {
     margin-left: 10px;
     cursor: pointer;
   }
-  
+  .navbar-brand:hover {
+    background-color: rgb(166, 255, 0);
+}
   .navbar-brand {
       background-color: #20B2AA;
       font-weight: bold;
       font-size: 20px;
       margin: 10px;
+      position: absolute;
+      text-align: center;
+      left: 100px;
+      height: 50px;
+      width: 175px;
+      margin-bottom: 25px;
   }
+
+  #NavbarTitle.hover {
+    color: black;
+}
   
   #NavbarTitle {
       color: white;
@@ -52,7 +64,7 @@ body {
   .header {
     height: 200px;
     padding-top: 20px;
-    background: #cdcdcd;
+  
   }
   
   /* Centering our h1 tag inside our header, giving it a little padding, removing its margin */
@@ -75,7 +87,13 @@ body {
   img {
     max-width: 100%;
     max-height: 100%;
-    margin-top: 10px;
+    margin: 10px;
+    position: left absolute;
+  }
+
+  p {
+    padding: 30px;
+    line-height: 50px;
   }
   
   .thumbnail_img {
